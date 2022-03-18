@@ -6,10 +6,10 @@ Data
 - username : arsyad
 - password : arsyad
 
-Nama : 
-Kelas : 
-Nim : 
+Nama : Wisnu Yumna Yudhanta
+Kelas : 6D
+Nim : 19090122
 
 Data 
-- username :
-- password :
+- username :wisnu
+- password :wisnu
