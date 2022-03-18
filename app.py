@@ -70,9 +70,9 @@ class InfoUser(Resource):
         return jsonify({"Pesan ":"Gagal mendapatkan info, Silahkan login terlebih dahulu"})       
 
 
-api.add_resource(RegisterUser, "/reg", methods=["POST"])
-api.add_resource(LoginUser, "/log", methods=["POST"])
-api.add_resource(InfoUser, "/info", methods=["POST"])
+api.add_resource(RegisterUser, "/api/v1/reg", methods=["POST"])
+api.add_resource(LoginUser, "/api/v1/login", methods=["POST"])
+api.add_resource(InfoUser, "/api/v2/users/info", methods=["POST"])
 
 if __name__ == "__main__":
     app.run(port=4000, debug=True)
